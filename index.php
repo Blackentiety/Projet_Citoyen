@@ -41,5 +41,5 @@ try{
     }
 }
 catch(Exception $e){
-    echo Erreur : 404;}
+    echo "Erreur : 404";}
 ?>
