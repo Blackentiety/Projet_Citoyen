@@ -26,8 +26,8 @@ try{
                 $router->getRoute('Page', 'index');
                 break;
 
-            case ($uri === '/Blog'):
-                $router->getRoute('Page', 'Blog');
+            case ($uri === '/blog'):
+                $router->getRoute('Page', 'blog');
                 break;
             default:
                 throw new Exception("Page not found", 404);
