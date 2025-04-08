@@ -10,3 +10,6 @@ ob_start();
     <h2>Notre équipe</h2>
     <p>Notre équipe est composée d'experts en entrepreneuriat, de chercheurs et de passionnés qui travaillent ensemble pour soutenir les femmes entrepreneures.</p>
 </div>
+
+<?php
+$content = ob_get_clean();
