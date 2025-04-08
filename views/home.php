@@ -1,6 +1,6 @@
 <?php 
-$Headtitle = "L'entrepnariat au féminin";
-$mainTitle = "L'entrepnariat au féminin";
+$Headtitle = "L'entreprenariat au féminin";
+$mainTitle = "L'entreprenariat au féminin";
 ob_start();
 ?>
 <section class="intro">
