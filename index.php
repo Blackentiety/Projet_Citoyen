@@ -29,6 +29,15 @@ try{
             case ($uri === '/blog'):
                 $router->getRoute('Page', 'blog');
                 break;
+            
+            case ($uri === '/form'):
+                $router->getRoute('Page', 'form');
+                break;
+            
+            case ($uri === '/a-propos'):
+                $router->getRoute('Page', 'about');
+                break;
+                
             default:
                 throw new Exception("Page not found", 404);
             break;
