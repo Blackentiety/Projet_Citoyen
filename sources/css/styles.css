@@ -1,3 +1,5 @@
+/*acceuil*/
+
 body {
     margin: 0;
     font-family: 'Raleway', sans-serif;
@@ -160,7 +162,7 @@ footer {
     text-align: center;
 }
 
-.social-icons {
+/*.social-icons { 
     display: flex;
     justify-content: flex-end;
     gap: 15px;
@@ -175,7 +177,7 @@ footer {
 
 .social-icons a img:hover {
     transform: scale(1.2);
-}
+} */
 
 .test{
     transform: none;
