@@ -12,7 +12,7 @@
 </head>
 <body>
     <header class="main-head">
-        <h1 class = "main-head-title">
+        <h1 class ="main-head-title">
             <?= $mainTitle ??"Entreprendre au Féminin" ?>
         </h1>
         <div class="mobile-menu">
