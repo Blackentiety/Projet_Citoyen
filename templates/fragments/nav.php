@@ -10,10 +10,10 @@
             <a href="/blog" class="main-nav-link">Blog</a>
         </li>
         <li class="main-nav-item">
-            <a href="/about" class="main-nav-link">Formulaire</a>
+            <a href="/form" class="main-nav-link">Formulaire</a>
         </li>
         <li class="main-nav-item">
-            <a href="/contact" class="main-nav-link">A propos</a>
+            <a href="/a-propos" class="main-nav-link">A propos</a>
         </li>
     </ul>
 </nav>
