@@ -145,26 +145,13 @@ button:hover {
 
 /*footer*/
 
-footer {
-    background-color: #f0b7a4; 
+.main-foot {
+    background-color: #f0b7a4;
     padding: 10px 30px;
     color: white;
+    text-align: center; 
 }
 
-.footer-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    text-align: center;
-}
-
-.footer-container p {
-    flex: 1;
-    margin: 5px 0;
-    font-weight: 600;
-    text-align: center;
-}
 
 /*blog*/
 body.blog {
