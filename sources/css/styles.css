@@ -232,6 +232,13 @@ button:hover {
     flex-direction: column;
 }
 
+.a-propos h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 25px ;
+    color: #3b5b8a;
+    margin-top: 30px;
+} 
+
 
 /* Sticky Footer */
 html, body {
