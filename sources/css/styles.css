@@ -221,7 +221,27 @@ button:hover {
 
 /* Formulaire */
 .formulaire {
-    font-family: 'Raleway', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.formulaire-container {
+    position: relative;
+    width: 100%;
+    max-width: 800px; /* Limite la largeur sur les grands écrans */
+    background-color: #f9f9f9; /* Optionnel : couleur de fond */
+    border-radius: 8px; /* Optionnel : coins arrondis */
+    overflow: hidden; /* Assure que rien ne dépasse */
+}
+
+.responsive-iframe {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
 }
 
 .main-section {
@@ -315,3 +335,4 @@ html, body {
         height: 300px; /* Ajustement pour les images sur ordinateur */
     }
 }
+
