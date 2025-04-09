@@ -11,13 +11,17 @@ body {
 header {
     background: linear-gradient(90deg, rgba(238,239,234,1) 0%, rgba(245,212,199,1) 44%, rgba(254,178,155,1) 100%);
     padding: 10px 20px;
-    display: flex;
-    justify-content: flex-start;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    justify-content: center;
 }
 
 nav {
     width: 100%;
-    display : none;
+    display: none;
+    justify-content: center;
+    align-items: center;
 }
 
 nav ul {
@@ -239,7 +243,12 @@ html, body {
 /* Styles pour les écrans plus larges */
 @media (min-width: 768px) {
     header {
+        display : flex;
         justify-content: flex-end;
+    }
+
+    nav {
+        display : block;    
     }
 
     nav ul {

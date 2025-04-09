@@ -22,6 +22,8 @@
         </div>
         <div class="empty">
         </div>
+        <div></div>
+        <div ></div>
         <div class="nav-all">
             <?php include_once "templates/fragments/nav.php" ?>
         </div>
