@@ -273,6 +273,18 @@ html, body {
     flex-direction: column;
 }
 
+/* Animation pour la transition de page */
+.page-transition {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.page-transition-active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
 /* Styles pour les écrans plus larges */
 @media (min-width: 768px) {
     header {
