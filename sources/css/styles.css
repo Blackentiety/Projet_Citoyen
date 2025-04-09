@@ -139,6 +139,8 @@ button:hover {
     background-color: #e39b88;
 }
 
+/*footer*/
+
 footer {
     background-color: #f0b7a4; 
     padding: 10px 30px;
@@ -160,66 +162,7 @@ footer {
     text-align: center;
 }
 
-.sommaire {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    background-color: #ffe9e2;
-    padding: 20px;
-    margin: 20px auto;
-    border-radius: 12px;
-    max-width: 800px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
-}
-
-.sommaire h2 {
-    font-family: 'Playfair Display', serif;
-    color: #3b5b8a;
-    margin-bottom: 10px;
-}
-
-.sommaire ul {
-    list-style: none;
-    padding: 0;
-}
-
-.sommaire li {
-    margin: 10px 0;
-}
-
-.sommaire a {
-    text-decoration: none;
-    color: #e67e64;
-    font-weight: bold;
-    transition: color 0.3s;
-}
-
-.sommaire a:hover {
-    color: #3b5b8a;
-}
-
-section {
-    padding: 30px 20px;
-    max-width: 800px;
-    margin: auto;
-}
-
-section h3 {
-    font-family: 'Playfair Display', serif;
-    font-size: 24px;
-    color: #3b5b8a;
-    margin-top: 50px;
-}
-
-section p {
-    font-family: 'Raleway', sans-serif;
-    line-height: 1.6;
-}
-
-/* Blog */
-
-/* Spécifique pour le blog */
+/*blog*/
 body.blog {
     margin: 0;
     font-family: 'Raleway', sans-serif;
@@ -279,6 +222,8 @@ section p {
     font-family: 'Raleway', sans-serif;
     line-height: 1.6;
 }
+
+/*form*/
 
 .main-section {
     display: flex;
