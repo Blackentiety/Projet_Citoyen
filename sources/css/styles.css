@@ -139,6 +139,10 @@ button:hover {
     background-color: #e39b88;
 }
 
+.main-head-title{
+    display: none;
+}
+
 /*footer*/
 
 footer {
@@ -232,3 +236,4 @@ section p {
     min-height: 100vh;         
     flex-direction: column;   
 }
+
