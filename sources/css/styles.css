@@ -1,8 +1,11 @@
-body {
+/* Accueil */
+
+body{
     margin: 0;
     font-family: 'Raleway', sans-serif;
     background-color: #ffffff;
     color: #333;
+    width: 100%;
 }
 
 header {
@@ -109,16 +112,14 @@ nav a {
     border-radius: 10px;
 }
 
-.card h3,
-.card-text h3 {
+.card h3 {
     font-family: 'Playfair Display', serif;
     color: #3b5b8a;
     font-size: 18px;
     margin-bottom: 10px;
 }
 
-.card p,
-.card-text p {
+.card p {
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
     margin: 10px 0;
@@ -139,44 +140,100 @@ button:hover {
     background-color: #e39b88;
 }
 
-footer {
-    background-color: #f0b7a4; /* même couleur que les boutons */
+.main-head-title{
+    display: none;
+}
+
+/*footer*/
+
+.main-foot {
+    background-color: #f0b7a4;
     padding: 10px 30px;
     color: white;
+    text-align: center; 
 }
 
-.footer-container {
+
+/*blog*/
+.main-content
+{
+display: flex; 
+justify-content: center; 
+width: 100%;  
+}
+
+.blog {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    background-color: #ffffff;
+    color: #333;
+}
+
+.sommaire {
+    background-color: #ffe9e2;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 12px;
+    max-width: 800px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.sommaire h2 {
+    font-family: 'Playfair Display', serif;
+    color: #3b5b8a;
+    margin-bottom: 10px;
+}
+
+.sommaire ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sommaire li {
+    margin: 10px 0;
+}
+
+.sommaire a {
+    text-decoration: none;
+    color: #e67e64;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.sommaire a:hover {
+    color: #3b5b8a;
+}
+
+section {
+    padding: 30px 20px;
+    margin: auto;
+}
+
+section h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    color: #3b5b8a;
+    margin-top: 50px;
+}
+
+section p {
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.6;
+}
+
+/*form*/
+
+.main-section {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    text-align: center;
+    justify-content: center;  
+    align-items: center;     
+    min-height: 100vh;         
+    flex-direction: column;   
 }
 
-.footer-container p {
-    flex: 1;
-    margin: 5px 0;
-    font-weight: 600;
-    text-align: center;
-}
-
-.social-icons {
-    display: flex;
-    justify-content: flex-end;
-    gap: 15px;
-}
-
-.social-icons a img {
-    width: 20px;
-    height: 20px;
-    filter: invert(100%);
-    transition: transform 0.3s ease;
-}
-
-.social-icons a img:hover {
-    transform: scale(1.2);
-}
-
-.test{
-    transform: none;
+.formulaire {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    background-color: #ffffff;
+    color: #333;
 }

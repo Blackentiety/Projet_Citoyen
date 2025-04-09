@@ -3,6 +3,7 @@ $Headtitle = "L'entreprenariat au féminin";
 $mainTitle = "L'entreprenariat au féminin";
 ob_start();
 ?>
+<section class="accueil">
 <section class="intro">
     <div class="text">
         <h1>Entreprendre au Féminin</h1>
@@ -39,6 +40,7 @@ ob_start();
           <button onclick="window.location.href='facteurs.html'">Lire plus</button>
         </div>
     </div>
+</section>
 </section>
 
 <?php 
