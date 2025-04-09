@@ -1,4 +1,4 @@
-/* Accueil */
+/* Accueil - Styles par défaut (mobile-first) */
 
 body {
     margin: 0;
@@ -6,22 +6,20 @@ body {
     background-color: #ffffff;
     color: #333;
     width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
 }
 
 header {
     background: linear-gradient(90deg, rgba(238,239,234,1) 0%, rgba(245,212,199,1) 44%, rgba(254,178,155,1) 100%);
-    padding: 20px 40px;
+    padding: 10px 20px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
 }
 
 nav ul {
     list-style: none;
     display: flex;
-    gap: 30px;
+    flex-direction: column;
+    gap: 10px;
     margin: 0;
     padding: 0;
 }
@@ -30,19 +28,19 @@ nav a {
     text-decoration: none;
     font-weight: 600;
     color: #ffffff;
+    text-align: center;
 }
 
 /* Section commune */
 section {
-    padding: 30px 20px;
-    margin: auto;
+    padding: 20px;
 }
 
 section h3 {
     font-family: 'Playfair Display', serif;
-    font-size: 24px;
+    font-size: 20px;
     color: #3b5b8a;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 section p {
@@ -53,28 +51,24 @@ section p {
 /* Intro */
 .intro {
     display: flex;
-    justify-content: space-between;
-    padding: 40px;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
     align-items: center;
-    gap: 50px;
+    text-align: center;
 }
 
 .intro .text {
     flex: 1;
 }
 
-.intro h1, .intro h2 {
-    font-family: 'Playfair Display', serif;
-    margin-bottom: 10px;
-}
-
 .intro h1 {
-    font-size: 32px;
+    font-size: 24px;
 }
 
 .intro h2 {
     color: #3b5b8a;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .intro p {
@@ -84,7 +78,7 @@ section p {
 .intro button {
     background-color: #f0b7a4;
     border: none;
-    padding: 10px 25px;
+    padding: 10px 20px;
     border-radius: 20px;
     color: white;
     font-weight: 600;
@@ -96,15 +90,8 @@ section p {
     background-color: #e39b88;
 }
 
-.intro .image {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    flex: 1;
-}
-
 .intro .image img {
-    width: 80%;
+    width: 100%;
     height: auto;
     border-radius: 12px;
     object-fit: cover;
@@ -113,23 +100,22 @@ section p {
 /* Cards */
 .cards {
     display: flex;
-    flex-wrap: wrap;
-    padding: 40px;
-    gap: 30px;
-    justify-content: flex-start;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
 }
 
 .card {
-    flex: 1 1 30%;
     display: flex;
     flex-direction: column;
-    gap: 15px;
-    align-items: flex-start;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
 }
 
 .card img {
     width: 100%;
-    height: 200px;
+    height: auto;
     object-fit: cover;
     border-radius: 10px;
 }
@@ -138,11 +124,9 @@ section p {
     font-family: 'Playfair Display', serif;
     color: #3b5b8a;
     font-size: 18px;
-    margin-bottom: 10px;
 }
 
 .card p {
-    font-family: 'Raleway', sans-serif;
     font-size: 14px;
     margin: 10px 0;
 }
@@ -162,17 +146,12 @@ button:hover {
     background-color: #e39b88;
 }
 
-.main-head-title {
-    display: none;
-}
-
 /* Footer */
 .main-foot {
     background-color: #f0b7a4;
-    padding: 10px 30px;
+    padding: 10px 20px;
     color: white;
     text-align: center;
-    margin-top: auto; /* Pousse le footer vers le bas */
 }
 
 /* Blog */
@@ -195,12 +174,10 @@ button:hover {
     padding: 20px;
     margin: 20px auto;
     border-radius: 12px;
-    max-width: 800px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .sommaire h2 {
-    font-family: 'Playfair Display', serif;
     color: #3b5b8a;
     margin-bottom: 10px;
 }
@@ -244,4 +221,56 @@ html, body {
     margin: 0;
     display: flex;
     flex-direction: column;
+}
+
+/* Styles pour les écrans plus larges */
+@media (min-width: 768px) {
+    header {
+        justify-content: flex-end;
+    }
+
+    nav ul {
+        flex-direction: row;
+        gap: 30px;
+    }
+
+    .intro {
+        flex-direction: row;
+        text-align: left;
+    }
+
+    .intro .image img {
+        width: 80%;
+        object-fit: contain; /* Ajustement pour les écrans plus larges */
+    }
+
+    .cards {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .card {
+        flex: 1 1 calc(33.333% - 20px);
+        align-items: flex-start;
+        text-align: left;
+    }
+}
+
+@media (min-width: 1024px) {
+    .intro h1 {
+        font-size: 32px;
+    }
+
+    .intro h2 {
+        font-size: 18px;
+    }
+
+    .cards {
+        gap: 30px;
+    }
+
+    .card img {
+        height: 300px; /* Ajustement pour les images sur ordinateur */
+    }
 }
