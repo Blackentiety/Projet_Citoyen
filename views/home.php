@@ -3,7 +3,7 @@ $Headtitle = "L'entreprenariat au féminin";
 $mainTitle = "L'entreprenariat au féminin";
 ob_start();
 ?>
-<body class="accueil">
+<section class="accueil">
 <section class="intro">
     <div class="text">
         <h1>Entreprendre au Féminin</h1>
@@ -41,7 +41,7 @@ ob_start();
         </div>
     </div>
 </section>
-</body>
+</section>
 
 <?php 
 $mainContent = ob_get_clean();

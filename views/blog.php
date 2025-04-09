@@ -3,7 +3,7 @@ $headTitle = 'Blog';
 $mainTitle = 'Blog';
 ob_start();
 ?>
-<body class="blog">
+<section class="blog">
 <div class="sommaire">
     <h2>Entreprendre au féminin</h2>
     <ul>
@@ -27,6 +27,6 @@ ob_start();
     <h3>Les facteurs de réussite</h3>
     <p>Accompagnement, formation, financement dédié, modèles inspirants... autant de leviers qui boostent l’entrepreneuriat féminin.</p>
   </section>
-</body>
+</section>
 <?php
 $mainContent = ob_get_clean();
