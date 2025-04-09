@@ -1,11 +1,14 @@
 /* Accueil */
 
-body{
+body {
     margin: 0;
     font-family: 'Raleway', sans-serif;
     background-color: #ffffff;
     color: #333;
     width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
@@ -29,6 +32,25 @@ nav a {
     color: #ffffff;
 }
 
+/* Section commune */
+section {
+    padding: 30px 20px;
+    margin: auto;
+}
+
+section h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    color: #3b5b8a;
+    margin-top: 50px;
+}
+
+section p {
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.6;
+}
+
+/* Intro */
 .intro {
     display: flex;
     justify-content: space-between;
@@ -41,22 +63,21 @@ nav a {
     flex: 1;
 }
 
-.intro h1 {
+.intro h1, .intro h2 {
     font-family: 'Playfair Display', serif;
-    font-size: 32px;
     margin-bottom: 10px;
+}
+
+.intro h1 {
+    font-size: 32px;
 }
 
 .intro h2 {
-    font-family: 'Playfair Display', serif;
     color: #3b5b8a;
     font-size: 18px;
-    margin-bottom: 10px;
 }
 
 .intro p {
-    font-family: 'Raleway', sans-serif;
-    line-height: 1.6;
     margin-bottom: 10px;
 }
 
@@ -89,6 +110,7 @@ nav a {
     object-fit: cover;
 }
 
+/* Cards */
 .cards {
     display: flex;
     flex-wrap: wrap;
@@ -140,26 +162,25 @@ button:hover {
     background-color: #e39b88;
 }
 
-.main-head-title{
+.main-head-title {
     display: none;
 }
 
-/*footer*/
-
+/* Footer */
 .main-foot {
     background-color: #f0b7a4;
     padding: 10px 30px;
     color: white;
-    text-align: center; 
+    text-align: center;
+    margin-top: auto; /* Pousse le footer vers le bas */
 }
 
-
-/*blog*/
-.main-content
-{
-display: flex; 
-justify-content: center; 
-width: 100%;  
+/* Blog */
+.main-content {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex: 1; /* Permet au contenu principal de prendre tout l'espace disponible */
 }
 
 .blog {
@@ -175,7 +196,7 @@ width: 100%;
     margin: 20px auto;
     border-radius: 12px;
     max-width: 800px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .sommaire h2 {
@@ -204,36 +225,23 @@ width: 100%;
     color: #3b5b8a;
 }
 
-section {
-    padding: 30px 20px;
-    margin: auto;
-}
-
-section h3 {
-    font-family: 'Playfair Display', serif;
-    font-size: 24px;
-    color: #3b5b8a;
-    margin-top: 50px;
-}
-
-section p {
+/* Formulaire */
+.formulaire {
     font-family: 'Raleway', sans-serif;
-    line-height: 1.6;
 }
-
-/*form*/
 
 .main-section {
     display: flex;
-    justify-content: center;  
-    align-items: center;     
-    min-height: 100vh;         
-    flex-direction: column;   
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
 }
 
-.formulaire {
+/* Sticky Footer */
+html, body {
+    height: 100%;
     margin: 0;
-    font-family: 'Raleway', sans-serif;
-    background-color: #ffffff;
-    color: #333;
+    display: flex;
+    flex-direction: column;
 }
