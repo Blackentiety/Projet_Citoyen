@@ -4,7 +4,7 @@ $mainTitle = "À propos de nous";
 ob_start();
 ?>
 
-<div>
+<div class="a-propos">
     <h2>Notre mission</h2>
     <p>Nous sommes dédiés à fournir des informations précises et utiles sur l'entrepreneuriat féminin.</p>
     <h2>Notre équipe</h2>
