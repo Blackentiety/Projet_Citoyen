@@ -33,6 +33,11 @@ nav ul {
     padding: 0;
 }
 
+.main-nav-link.active {
+    font-weight: bold; /* Texte en gras */
+    text-decoration: underline; /* Texte souligné */
+}
+
 nav a {
     text-decoration: none;
     font-weight: 600;
@@ -343,4 +348,5 @@ html, body {
         height: 300px; /* Ajustement pour les images sur ordinateur */
     }
 }
+
 
