@@ -5,13 +5,66 @@ ob_start();
 ?>
 
 <div class="a-propos">
-    <div class ="missions">
+  <div class="missions">
     <h2>Notre mission</h2>
     <p>Nous sommes dédiés à fournir des informations précises et utiles sur l'entrepreneuriat féminin.</p>
+
     <h2>Notre équipe</h2>
     <p>Notre équipe est composée d'experts en entrepreneuriat, de chercheurs et de passionnés qui travaillent ensemble pour soutenir les femmes entrepreneures.</p>
+  </div>
+  <div class="container-equipe">
+  <div class="membre">
+    <a href="https://www.linkedin.com/in/hind-anadam" target="_blank">
+      <img src="https://us.123rf.com/450wm/thesomeday123/thesomeday1231712/thesomeday123171200008/91087328-ic%C3%B4ne-de-profil-avatar-par-d%C3%A9faut-pour-femme-espace-r%C3%A9serv%C3%A9-photo-gris-vecteur-d-illustrations.jpg" alt="Hind ANADAM">
+    </a>
+    <p>Hind ANADAM</p>
+  </div>
+
+  <div class="membre">
+    <a href="https://www.linkedin.com/in/abla-kpessou" target="_blank">
+      <img src="https://us.123rf.com/450wm/thesomeday123/thesomeday1231712/thesomeday123171200008/91087328-ic%C3%B4ne-de-profil-avatar-par-d%C3%A9faut-pour-femme-espace-r%C3%A9serv%C3%A9-photo-gris-vecteur-d-illustrations.jpg" alt="Abla Kekeli Tania KPESSOU">
+    </a>
+    <p>Abla Kekeli Tania KPESSOU</p>
+  </div>
+
+  <div class="membre">
+    <a href="https://www.linkedin.com/in/kokou-dalmeida" target="_blank">
+      <img src="https://img.freepik.com/vecteurs-premium/icone-profil-avatar-par-defaut-image-utilisateur-medias-sociaux-icone-avatar-gris-silhouette-profil-vide-illustration-vectorielle_561158-3383.jpg" alt="Kokou Corneille DALMEIDA">
+    </a>
+    <p>Kokou Corneille DALMEIDA</p>
+  </div>
+
+  <div class="membre">
+    <a href="https://www.linkedin.com/in/lukas-boudin-legret" target="_blank">
+      <img src="https://img.freepik.com/vecteurs-premium/icone-profil-avatar-par-defaut-image-utilisateur-medias-sociaux-icone-avatar-gris-silhouette-profil-vide-illustration-vectorielle_561158-3383.jpg" alt="Lukas BOUDIN LEGRET">
+    </a>
+    <p>Lukas BOUDIN LEGRET</p>
+  </div>
+
+  <div class="membre">
+    <a href="https://www.linkedin.com/in/yanis-loze" target="_blank">
+      <img src="https://img.freepik.com/vecteurs-premium/icone-profil-avatar-par-defaut-image-utilisateur-medias-sociaux-icone-avatar-gris-silhouette-profil-vide-illustration-vectorielle_561158-3383.jpg" alt="Yanis LOZE">
+    </a>
+    <p>Yanis LOZE</p>
+  </div>
+
+  <div class="membre">
+    <a href="https://www.linkedin.com/in/yawo-alognon" target="_blank">
+      <img src="https://img.freepik.com/vecteurs-premium/icone-profil-avatar-par-defaut-image-utilisateur-medias-sociaux-icone-avatar-gris-silhouette-profil-vide-illustration-vectorielle_561158-3383.jpg" alt="Yawo ALOGNON">
+    </a>
+    <p>Yawo ALOGNON</p>
+  </div>
+
+  <div class="membre">
+    <a href="https://www.linkedin.com/in/yelda-adouane" target="_blank">
+      <img src="https://us.123rf.com/450wm/thesomeday123/thesomeday1231712/thesomeday123171200008/91087328-ic%C3%B4ne-de-profil-avatar-par-d%C3%A9faut-pour-femme-espace-r%C3%A9serv%C3%A9-photo-gris-vecteur-d-illustrations.jpg" alt="Yelda ADOUANE">
+    </a>
+    <p>Yelda ADOUANE</p>
+  </div>
 </div>
-    <section class="valeurs">
+
+
+    <div class="valeurs">
     <h2>Nos valeurs</h2>
     <div class="valeurs-container">
         <div class="valeur">
@@ -31,7 +84,7 @@ ob_start();
             <p>Notre communauté repose sur le respect, l’écoute et l’inclusivité. Chaque voix compte.</p>
         </div>
     </div>
-</section>    
+</div>    
 </div>
 
 <?php

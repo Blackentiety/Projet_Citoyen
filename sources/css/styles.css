@@ -85,12 +85,15 @@ section p {
 }
 
 .intro h1 {
+    font-family: 'Playfair Display', serif;
+    color: #000000;
     font-size: 24px;
 }
 
 .intro h2 {
+    font-family: 'Playfair Display', serif;
     color: #3b5b8a;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .intro p {
@@ -200,6 +203,7 @@ button:hover {
 }
 
 .sommaire h2 {
+    font-family: 'Playfair Display', serif;
     color: #3b5b8a;
     margin-bottom: 10px;
 }
@@ -257,13 +261,12 @@ button:hover {
     flex-direction: column;
 }
 
-.a-propos h2{
+.a-propos h2 {
     font-family: 'Playfair Display', serif;
     font-size: 25px ;
     color: #3b5b8a;
     margin-top: 30px;
 } 
-
 
 /* Sticky Footer */
 html, body {
@@ -283,6 +286,44 @@ html, body {
 .page-transition-active {
     opacity: 1;
     transform: translateY(0);
+}
+
+/*a propos*/
+.container-equipe {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+    margin: 2rem auto;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    flex-wrap: wrap;
+}
+
+.membre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    min-width: 100px;
+    font-family: 'Playfair Display', sans-serif;
+    color: #2c2c2c;
+}
+
+.membre img {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #f9b7a8;
+    margin-bottom: 0.5rem;
+    transition: transform 0.3s ease;
+}
+
+.membre img:hover {
+    transform: scale(1.05);
 }
 
 /* Styles pour les écrans plus larges */
