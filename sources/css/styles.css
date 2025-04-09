@@ -12,7 +12,12 @@ header {
     background: linear-gradient(90deg, rgba(238,239,234,1) 0%, rgba(245,212,199,1) 44%, rgba(254,178,155,1) 100%);
     padding: 10px 20px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+}
+
+nav {
+    width: 100%;
+    display : none;
 }
 
 nav ul {
@@ -46,6 +51,14 @@ section h3 {
 section p {
     font-family: 'Raleway', sans-serif;
     line-height: 1.6;
+}
+
+.main-head-title{
+    display: none;  
+}
+
+.mobile-menu{
+    display: block;
 }
 
 /* Intro */
@@ -232,6 +245,10 @@ html, body {
     nav ul {
         flex-direction: row;
         gap: 30px;
+    }
+
+    .mobile-menu{
+        display: none;
     }
 
     .intro {

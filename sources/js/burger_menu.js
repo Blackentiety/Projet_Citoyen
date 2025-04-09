@@ -12,6 +12,7 @@ if (menu.innerHTML === 'menu') {
 
 window.addEventListener('resize', function() {
     const nav = document.querySelector('.main-nav');
+    
     if (window.innerWidth > 768 && nav.style.display === 'none') {
         nav.style.display = 'block';
     }
