@@ -35,5 +35,7 @@
         <p class="copyright">© 2025 - Entreprendre au Féminin</p>
     </footer>
     <script src="/sources/js/burger_menu.js"></script>
+    <script src="/sources/js/page_selector.js"></script>
+    <script src="/sources/js/page_transition.js"></script>
 </body>
 </html>
