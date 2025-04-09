@@ -265,9 +265,18 @@ html, body {
         text-align: left;
     }
 
+    .intro .image {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        flex: 1;
+    }
+
     .intro .image img {
         width: 80%;
-        object-fit: contain; /* Ajustement pour les écrans plus larges */
+        height: auto;
+        border-radius: 12px;
+        object-fit: cover; /* Ajustement pour les écrans plus larges */
     }
 
     .cards {
