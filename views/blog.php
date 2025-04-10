@@ -10,7 +10,9 @@ ob_start();
       <li><a href="#introduction">Introduction</a></li>
       <li><a href="#partie1">Les tendances entrepreneuriales par genre</a></li>
       <li><a href="#partie2">Les obstacles rencontrés par les femmes</a></li>
-      <li><a href="#partie3">Les facteurs de réussite</a></li>
+      <li><a href="#partie3">Les facteurs de réussite et opportunités</a></li>
+      <li><a href="#partie4">Vers une égalité dans l'entreprenariat</a></li>
+      <li><a href="#conclusion">Conclusion</a></li>
     </ul>
   </div>
 
@@ -99,6 +101,20 @@ ob_start();
     </p>
     <p>
       Les réponses au questionnaire confirment cette tendance : la majorité pense que l’égalité des genres favorise un développement économique durable. Toutefois, des stéréotypes de genre persistent et freinent encore l’investissement et la confiance envers les projets portés par des femmes.
+    </p>
+  </section>
+
+  <section id="partie4">
+    <h3>Vers une égalité dans l'entreprenariat</h3>
+    <p>
+      Manque de financement, stéréotypes de genre, accès limité au réseau professionnel... Les défis sont nombreux.
+    </p>
+  </section>
+
+  <section id="conclusion">
+    <h3>Conclusion</h3>
+    <p>
+      Manque de financement, stéréotypes de genre, accès limité au réseau professionnel... Les défis sont nombreux.
     </p>
   </section>
 </section>
