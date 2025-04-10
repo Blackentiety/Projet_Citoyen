@@ -60,6 +60,8 @@ section h3 {
 section p {
     font-family: 'Raleway', sans-serif;
     line-height: 1.6;
+    text-align: justify;
+
 }
 
 .main-head-title{
