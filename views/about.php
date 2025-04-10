@@ -14,35 +14,35 @@ ob_start();
   </div>
   <div class="container-equipe">
   <div class="membre">
-    <a href="https://www.linkedin.com/in/hind-anadam" target="_blank">
+    <a href="http://www.linkedin.com/in/hind-anadam-87a50a35b" target="_blank">
       <img src="https://us.123rf.com/450wm/thesomeday123/thesomeday1231712/thesomeday123171200008/91087328-ic%C3%B4ne-de-profil-avatar-par-d%C3%A9faut-pour-femme-espace-r%C3%A9serv%C3%A9-photo-gris-vecteur-d-illustrations.jpg" alt="Hind ANADAM">
     </a>
     <p>Hind ANADAM</p>
   </div>
 
   <div class="membre">
-    <a href="https://www.linkedin.com/in/abla-kpessou" target="_blank">
+    <a href="https://www.linkedin.com/in/tania-kpessou-6783b2305?" target="_blank">
       <img src="https://us.123rf.com/450wm/thesomeday123/thesomeday1231712/thesomeday123171200008/91087328-ic%C3%B4ne-de-profil-avatar-par-d%C3%A9faut-pour-femme-espace-r%C3%A9serv%C3%A9-photo-gris-vecteur-d-illustrations.jpg" alt="Abla Kekeli Tania KPESSOU">
     </a>
     <p>Abla Kekeli Tania KPESSOU</p>
   </div>
 
   <div class="membre">
-    <a href="https://www.linkedin.com/in/kokou-dalmeida" target="_blank">
+    <a href="https://www.linkedin.com/in/corneille-d-almeida-1642b422b" target="_blank">
       <img src="https://img.freepik.com/vecteurs-premium/icone-profil-avatar-par-defaut-image-utilisateur-medias-sociaux-icone-avatar-gris-silhouette-profil-vide-illustration-vectorielle_561158-3383.jpg" alt="Kokou Corneille DALMEIDA">
     </a>
     <p>Kokou Corneille DALMEIDA</p>
   </div>
 
   <div class="membre">
-    <a href="https://www.linkedin.com/in/lukas-boudin-legret" target="_blank">
+    <a href="https://www.linkedin.com/in/lukas-boudin-legret-28616032b/" target="_blank">
       <img src="https://img.freepik.com/vecteurs-premium/icone-profil-avatar-par-defaut-image-utilisateur-medias-sociaux-icone-avatar-gris-silhouette-profil-vide-illustration-vectorielle_561158-3383.jpg" alt="Lukas BOUDIN LEGRET">
     </a>
     <p>Lukas BOUDIN LEGRET</p>
   </div>
 
   <div class="membre">
-    <a href="https://www.linkedin.com/in/yanis-loze" target="_blank">
+    <a href="https://fr.linkedin.com/in/yanis-loze-74aaa62a4" target="_blank">
       <img src="https://img.freepik.com/vecteurs-premium/icone-profil-avatar-par-defaut-image-utilisateur-medias-sociaux-icone-avatar-gris-silhouette-profil-vide-illustration-vectorielle_561158-3383.jpg" alt="Yanis LOZE">
     </a>
     <p>Yanis LOZE</p>
@@ -56,7 +56,7 @@ ob_start();
   </div>
 
   <div class="membre">
-    <a href="https://www.linkedin.com/in/yelda-adouane" target="_blank">
+    <a href="https://www.linkedin.com/in/yelda-adouane-33b369197/" target="_blank">
       <img src="https://us.123rf.com/450wm/thesomeday123/thesomeday1231712/thesomeday123171200008/91087328-ic%C3%B4ne-de-profil-avatar-par-d%C3%A9faut-pour-femme-espace-r%C3%A9serv%C3%A9-photo-gris-vecteur-d-illustrations.jpg" alt="Yelda ADOUANE">
     </a>
     <p>Yelda ADOUANE</p>
