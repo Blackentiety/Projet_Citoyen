@@ -290,16 +290,15 @@ html, body {
 
 /*a propos*/
 .container-equipe {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Quatre colonnes par défaut */
     gap: 2rem;
     padding: 2rem;
     margin: 2rem auto;
     border-radius: 20px;
     background-color: #fff;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-    flex-wrap: wrap;
+    justify-content: center; /* Centre les lignes */
 }
 
 .membre {
@@ -324,6 +323,56 @@ html, body {
 
 .membre img:hover {
     transform: scale(1.05);
+}
+
+/* Section À propos */
+.a-propos {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.missions {
+    text-align: center;
+}
+
+.container-equipe {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.membre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 0.5rem;
+}
+
+.membre img {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #f9b7a8;
+    transition: transform 0.3s ease;
+}
+
+.membre img:hover {
+    transform: scale(1.05);
+}
+
+.valeurs {
+    text-align: center;
+}
+
+.valeurs-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
 }
 
 /* Styles pour les écrans plus larges */
@@ -382,6 +431,44 @@ html, body {
         object-fit: cover;
         border-radius: 10px;
     }
+
+    .a-propos {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .missions {
+        flex: 1;
+        text-align: left;
+    }
+
+    .container-equipe {
+        display : flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .valeurs-container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .container-equipe .membre {
+        flex: 1 1 calc(25% - 2rem); /* 4 membres par ligne maximum */
+        max-width: calc(25% - 5rem);
+    }
+
+    .membre {
+        flex: 1 1 calc(33.333% - 1rem);
+        max-width: 200px;
+    }
+
+    .valeurs-container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
 }
 
 @media (min-width: 1024px) {
@@ -400,6 +487,14 @@ html, body {
     .card img {
         height: 300px; /* Ajustement pour les images sur ordinateur */
     }
-}
 
+    .membre img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .valeurs-container {
+        gap: 2rem;
+    }
+}
 
