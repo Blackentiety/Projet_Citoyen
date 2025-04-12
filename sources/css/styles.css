@@ -278,6 +278,10 @@ html, body {
     flex-direction: column;
 }
 
+html {
+    scroll-behavior: smooth; /* Ajout de l'effet de défilement fluide */
+}
+
 /* Animation pour la transition de page */
 .page-transition {
     opacity: 0;

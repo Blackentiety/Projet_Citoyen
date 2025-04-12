@@ -120,3 +120,4 @@ ob_start();
 </section>
 <?php
 $mainContent = ob_get_clean();
+$script = "<script src=\"/sources/js/smooth_scroll.js\"></script>";
