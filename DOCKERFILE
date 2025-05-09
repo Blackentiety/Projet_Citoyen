@@ -5,10 +5,10 @@ FROM php:8.2-apache
 RUN a2enmod rewrite
 
 # Copie tout le projet dans le conteneur
-COPY . /var/www/
+COPY . /var/www/html/
 
 # Définit le dossier public comme racine du serveur web
-WORKDIR /var/www/public
+WORKDIR /var/www/html/public
 
 # Autorise l'utilisation des fichiers .htaccess
 RUN sed -i 's/AllowOverride None/AllowOverride All/g' /etc/apache2/apache2.conf
