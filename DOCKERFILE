@@ -5,13 +5,19 @@ FROM php:8.2-apache
 RUN a2enmod rewrite
 
 # Copie tout le projet dans le conteneur
-COPY . /var/www/html/
+COPY . /var/www/
 
 # Définit le dossier public comme racine du serveur web
-WORKDIR /var/www/html/public
+WORKDIR /var/www/public
+
+# Configure Apache pour pointer vers le dossier public
+RUN sed -i 's|DocumentRoot /var/www/html|DocumentRoot /var/www/public|g' /etc/apache2/sites-available/000-default.conf
 
 # Autorise l'utilisation des fichiers .htaccess
 RUN sed -i 's/AllowOverride None/AllowOverride All/g' /etc/apache2/apache2.conf
+
+# Donne les permissions nécessaires à Apache
+RUN chown -R www-data:www-data /var/www && chmod -R 755 /var/www
 
 # Ouvre le port 80
 EXPOSE 80
