@@ -25,7 +25,7 @@
         <div></div>
         <div ></div>
         <div class="nav-all">
-            <?php include_once __DIR__."/templates/fragments/nav.php" ?>
+            <?php include_once __DIR__."/fragments/nav.php" ?>
         </div>
     </header>
     <main class="main-content">
