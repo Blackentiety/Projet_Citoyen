@@ -14,6 +14,7 @@ try{
     $uri = $_SERVER['REQUEST_URI'];
     $method = $_SERVER['REQUEST_METHOD'] ?? 'GET';
     $queryString = $_SERVER['QUERY_STRING'] ?? null;
+    require_once(__DIR__ . '/../models/Router.php');
     $router = new Router($uri, $method);
 
     $uri = str_replace("?", "", $uri);
@@ -52,4 +53,5 @@ try{
 }
 catch(Exception $e){
     echo "Erreur : 404";}
+var_dump(class_exists('Router')); // Doit retourner true
 ?>
