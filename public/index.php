@@ -1,13 +1,14 @@
 <?php 
 
 spl_autoload_register(function($class){
+    $baseDir = __DIR__ . '/../';
     $class = ucfirst($class);
 
-    if(file_exists("/../public/models/{$class}.php"))
-    require_once "/../public/models/{$class}.php";
+    if (file_exists($baseDir . "models/{$class}.php"))
+        require_once $baseDir . "models/{$class}.php";
 
-    if(file_exists("/../public/controllers/{$class}.php"))
-    require_once "/../public/controllers/{$class}.php";
+    if (file_exists($baseDir . "controllers/{$class}.php"))
+        require_once $baseDir . "controllers/{$class}.php";
 });
 try{
     $uri = $_SERVER['REQUEST_URI'];
