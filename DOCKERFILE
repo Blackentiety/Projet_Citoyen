@@ -12,3 +12,4 @@ RUN sed -i 's/AllowOverride None/AllowOverride All/g' /etc/apache2/apache2.conf
 
 # Ouvre le port 80 (optionnel ici sur Render)
 EXPOSE 80
+ 
