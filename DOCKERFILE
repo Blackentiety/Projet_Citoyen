@@ -10,5 +10,5 @@ COPY public/ /var/www/html/
 # Autorise l'utilisation des fichiers .htaccess
 RUN sed -i 's/AllowOverride None/AllowOverride All/g' /etc/apache2/apache2.conf
 
-# Ouvre le port 80 (optionnel ici sur Render)
+# Ouvre le port 80
 EXPOSE 80
