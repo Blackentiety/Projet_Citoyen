@@ -1,0 +1,14 @@
+# Utilise une image officielle PHP avec Apache
+FROM php:8.2-apache
+
+# Active le module Apache rewrite (utile pour .htaccess)
+RUN a2enmod rewrite
+
+# Copie ton code dans le dossier web d'Apache
+COPY public/ /var/www/html/
+
+# Autorise l'utilisation des fichiers .htaccess
+RUN sed -i 's/AllowOverride None/AllowOverride All/g' /etc/apache2/apache2.conf
+
+# Ouvre le port 80 (optionnel ici sur Render)
+EXPOSE 80
