@@ -4,8 +4,11 @@ FROM php:8.2-apache
 # Active le module Apache rewrite (utile pour .htaccess)
 RUN a2enmod rewrite
 
-# Copie ton code dans le dossier web d'Apache
-COPY public/ /var/www/html/
+# Copie tout le projet dans le conteneur
+COPY . /var/www/
+
+# Définit le dossier public comme racine du serveur web
+WORKDIR /var/www/public
 
 # Autorise l'utilisation des fichiers .htaccess
 RUN sed -i 's/AllowOverride None/AllowOverride All/g' /etc/apache2/apache2.conf
