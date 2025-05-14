@@ -26,7 +26,7 @@ ob_start();
   </section>
 
   <section id="partie1">
-  <h3>Les tendances entrepreneuriales par genre</h3>
+  <h3>I. Les tendances entrepreneuriales par genre</h3>
   <p>
     Les femmes entrepreneures sont de plus en plus nombreuses, mais certaines différences de secteurs et de statuts demeurent...
   </p>
@@ -82,7 +82,7 @@ ob_start();
   </section>
 
   <section id="partie2">
-  <h3>III. Obstacles et Défis Différenciés</h2> 
+  <h3>II. Obstacles et Défis Différenciés</h2> 
 
 <h4>1- L'accès au financement :</h3> 
 
@@ -339,7 +339,7 @@ Les femmes doivent souvent faire davantage leurs preuves pour établir leur cré
   </section>
 
   <section id="partie3">
-    <h3>IV. Facteurs de Réussite et Opportunités</h3>
+    <h3>III. Facteurs de Réussite et Opportunités</h3>
 
     <h3>1. Stratégies d’adaptation et de réussite des femmes entrepreneures</h3>
     <p>
@@ -404,7 +404,7 @@ Les femmes doivent souvent faire davantage leurs preuves pour établir leur cré
   </section>
 
   <section id="partie4">
-  <h3>V. Vers une Égalité dans l’Entrepreneuriat</h3>
+  <h3>IV. Vers une Égalité dans l’Entrepreneuriat</h3>
   <p>
     Les femmes entrepreneures sont de plus en plus présentes dans le milieu de l'entrepreneuriat, qui est majoritairement dominé par les sexes opposés. Cela dit, elles continuent de rencontrer des obstacles structurels et culturels qui freinent leur accès au niveau supérieur dans le monde des affaires. Dans ce contexte, il devient essentiel d'analyser les défis auxquels elles sont confrontées, tout en explorant des solutions pour favoriser une véritable égalité dans l’entrepreneuriat.
   </p>
