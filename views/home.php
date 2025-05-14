@@ -25,8 +25,8 @@ ob_start();
     <section class="cards">
         <!-- ensembles des parties -->
         <div class="card">
-            <div class="card-text">
             <img src="https://images.pexels.com/photos/8923776/pexels-photo-8923776.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Tendances Genre">
+            <div class="card-text">
             <h3>I. Les Tendances Entrepreneuriales par Genre</h3>
             <p></p>
             <a href="/blog#partie1">
@@ -35,8 +35,8 @@ ob_start();
             </div>
         </div>
         <div class="card">
-            <div class="card-text">
             <img src="https://images.pexels.com/photos/6694482/pexels-photo-6694482.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Défis financiers">
+            <div class="card-text">
             <h3>II. Obstacles et Défis Différenciés</h3>
             <p></p>
             <a href="/blog#partie2">
