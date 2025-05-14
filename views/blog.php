@@ -323,7 +323,6 @@ Les femmes entrepreneuses peuvent être confrontées à des attentes contradicto
 </p> 
 
  
-
 <h4>Crédibilité professionnelle :</h4> 
 
  
@@ -459,6 +458,40 @@ Les femmes doivent souvent faire davantage leurs preuves pour établir leur cré
     L’éducation à l’entrepreneuriat est l’un des outils les plus puissants pour créer des opportunités et rendre les femmes plus autonomes dans le monde du travail (<a href="https://www.ipag.edu/blog/formation-entrepreneuriat#:~:text=Les%20formations%20professionnelles%20pour%20les,création%20d'entreprise%20cités%20précédemment.">source</a>).
   </p>
 </section>
+
+<section id="conclusion">
+  <h3>Conclusion</h3>
+
+  <h4>Résumé des différences et des défis</h4>
+  <p>
+    L'esprit d'entreprise est l'un des facteurs et outils les plus importants qui contribuent à l'économie d'un État ou d'un pays. Cependant, nous constatons que certaines femmes sont confrontées à des défis difficiles ou sont marginalisées par rapport aux hommes sur le marché du travail. Cela est dû à plusieurs facteurs tels que les contraintes sociales, la discrimination structurelle et les difficultés d'accès aux ressources et aux réseaux professionnels.
+  </p>
+  <p>
+    <em>Women Entrepreneurs: A Critical Review of the Literature</em> de Teresa M. Amabile et Heather J. L. Davis examine ces défis spécifiques auxquels les femmes entrepreneures sont confrontées et les obstacles qu'elles doivent surmonter pour réussir. <em>Entrepreneurship and Gender</em> de Rachel E. D. Smith et Susan L. Perkins explore également ces difficultés et propose des solutions pour atténuer les obstacles à travers des politiques adaptées.
+  </p>
+  <p>
+    Certaines études montrent que les femmes ont souvent plus de mal à obtenir le financement nécessaire pour leurs projets, un soutien et des encouragements adéquats, et un manque de confiance totale dans leurs qualifications intellectuelles et pratiques. <em>The Confidence Code: The Science and Art of Self-Assurance</em> de Katty Kay et Claire Shipman met en lumière les raisons de ce manque de confiance chez les femmes et fournit des conseils pour renforcer leur assurance.
+  </p>
+  <p>
+    En outre, <em>The Female Entrepreneur: A Practical Guide to Starting Your Own Business</em> de G. S. Louviere offre des conseils pratiques sur la manière de lever ces obstacles, en particulier sur les difficultés liées à l'obtention de financement et au manque de soutien dans le processus entrepreneurial. Par conséquent, nous pensons qu'il est nécessaire de prendre des mesures concrètes pour promouvoir l'égalité des sexes dans ce domaine et minimiser les obstacles pour les femmes ambitieuses dans le monde de la croissance des entreprises.
+  </p>
+  <p>
+    <em>The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses</em> d'Eric Ries, bien que non spécifiquement axé sur les femmes, peut offrir des stratégies utiles pour toutes les personnes, y compris les femmes, qui cherchent à bâtir une entreprise à partir de zéro en minimisant les risques financiers et en maximisant les opportunités.
+  </p>
+
+  <h4>Importance de l’égalité des opportunités dans l'entrepreneuriat pour un développement économique durable</h4>
+  <p>
+    La réalisation de l'égalité entre les femmes et les hommes dans le domaine de l'entrepreneuriat n'est pas seulement un pas vers la justice sociale, c'est aussi une excellente stratégie pour développer une économie durable. Lorsque les femmes et les hommes ont les mêmes chances de réaliser leurs idées et leurs projets, ils contribuent à l'innovation, renforcent la compétitivité et créent des opportunités d'emploi pour les deux sexes.
+  </p>
+  <p>
+    <em>Women Entrepreneurs: A Critical Review of the Literature</em> de Teresa M. Amabile et Heather J. L. Davis met en lumière ces contributions de l'égalité des sexes dans le domaine entrepreneurial et comment cela peut stimuler l'innovation. <em>Entrepreneurship and Gender</em> de Rachel E. D. Smith et Susan L. Perkins souligne également l'importance de l'égalité des sexes pour favoriser un environnement entrepreneurial dynamique et inclusif.
+  </p>
+  <p>
+    En conclusion, promouvoir l'égalité des sexes dans l'entrepreneuriat n'est pas seulement une question d'équité, mais c'est aussi un impératif économique. En surmontant les obstacles et en favorisant un environnement inclusif, nous pouvons libérer le potentiel de toutes les entrepreneures et contribuer à un avenir économique prospère et durable.
+  </p>
+</section>
+
 <?php
 $mainContent = ob_get_clean();
 $script = "<script src=\"/sources/js/smooth_scroll.js\"></script>";
+?>
