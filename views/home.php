@@ -27,7 +27,7 @@ ob_start();
         <div class="card">
             <img src="https://images.pexels.com/photos/8923776/pexels-photo-8923776.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Tendances Genre">
             <h3>II. Les Tendances Entrepreneuriales par Genre</h3>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            <p></p>
             <a href="/blog#partie1">
                 <button>Lire plus</button>
             </a>
@@ -35,7 +35,7 @@ ob_start();
         <div class="card">
             <img src="https://images.pexels.com/photos/6694482/pexels-photo-6694482.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Défis financiers">
             <h3>III. Obstacles et Défis Différenciés</h3>
-            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia...</p>
+            <p></p>
             <a href="/blog#partie2">
                 <button>Lire plus</button>
             </a>
@@ -44,7 +44,7 @@ ob_start();
             <img src="https://images.pexels.com/photos/7693153/pexels-photo-7693153.jpeg" alt="Facteurs de réussite">
             <div class="card-text">
                 <h3>IV. Facteurs de Réussite et Opportunités</h3>
-                <p>Écrire est un art. Utilisez des expressions simples et accessibles.</p>
+                <p></p>
                 <a href="/blog#partie3">
                 <button>Lire plus</button>
             </a>
