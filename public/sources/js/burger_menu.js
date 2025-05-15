@@ -40,4 +40,23 @@ window.addEventListener('resize', function() {
     }
 });
 
+let lastScroll = 0;
+const navBar = document.querySelector('header'); // ou adapte le sélecteur à ton bandeau
+
+window.addEventListener('scroll', function() {
+    const currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+    if (currentScroll <= 0) {
+        navBar.style.top = '0'; // Toujours visible en haut de page
+        return;
+    }
+    if (currentScroll > lastScroll) {
+        // Scroll vers le bas : on cache la nav
+        navBar.style.top = '-100px'; // ou la hauteur de ton header
+    } else {
+        // Scroll vers le haut : on affiche la nav
+        navBar.style.top = '0';
+    }
+    lastScroll = currentScroll;
+});
+
 
