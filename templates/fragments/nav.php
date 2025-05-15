@@ -13,7 +13,7 @@
             <a href="/form" class="main-nav-link">Formulaire</a>
         </li>
         <li class="main-nav-item">
-            <a href="/a-propos" class="main-nav-link">A propos</a>
+            <a href="/a-propos" class="main-nav-link">À propos</a>
         </li>
     </ul>
 </nav>
