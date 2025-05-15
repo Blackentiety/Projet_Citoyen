@@ -32,7 +32,7 @@
         <?= $mainContent ?? "Erreur 404" ?>
     </main>
     <footer class="main-foot">
-        <p class="copyright">© 2025 - Entreprendre au Féminin</p>
+        <p class="copyright">© 2025 - Tous droits réservés</p>
     </footer>
     <script src="/sources/js/burger_menu.js"></script>
     <script src="/sources/js/page_selector.js"></script>
