@@ -1,4 +1,17 @@
+document.addEventListener('DOMContentLoaded', function() {
+    const nav = document.querySelector('.main-nav');
+    const menu = document.querySelector('#toggler');
+    // Cache le menu par défaut sur mobile
+    if (window.innerWidth <= 768) {
+        nav.style.display = 'none';
+        menu.innerHTML = 'menu';
+    } else {
+        nav.style.display = 'block';
+        menu.innerHTML = 'menu';
+    }
+});
 
+// Ajoute un écouteur d'événement pour le clic sur le menu
 function toggler(){
 const menu = document.querySelector('#toggler');
 const nav = document.querySelector('.main-nav');
@@ -26,4 +39,5 @@ window.addEventListener('resize', function() {
         menu.innerHTML = 'menu';
     }
 });
+
 
