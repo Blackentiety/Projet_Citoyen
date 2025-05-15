@@ -18,10 +18,7 @@ header {
 }
 
 nav {
-    width: 100%;
     display: none;
-    justify-content: center;
-    align-items: center;
 }
 
 nav ul {
@@ -389,7 +386,7 @@ html {
     }
 
     nav {
-        display : block;    
+        display: block;
     }
 
     nav ul {
