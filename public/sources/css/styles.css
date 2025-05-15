@@ -186,7 +186,7 @@ button:hover {
 
 /* Blog */
 .main-content {
-    /* Ajuster la marge supérieure pour éviter que le contenu ne soit masqué par le header */
+    margin-top: 20px;/* Ajuster la marge supérieure pour éviter que le contenu ne soit masqué par le header */
     display: flex;
     justify-content: center;
     width: 100%;
