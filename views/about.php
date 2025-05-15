@@ -10,7 +10,7 @@ ob_start();
     <p>Nous sommes dédiés à fournir des informations précises et utiles sur l'entrepreneuriat féminin.</p>
 
     <h2>Notre équipe</h2>
-    <p>Notre équipe est composée d'experts en entrepreneuriat, de chercheurs et de passionnés qui travaillent ensemble pour soutenir les femmes entrepreneures.</p>
+    <p>Notre équipe est composée d'étudiants à IPSSI grande école d'informatique, qui se sentent concerné par la place de la femme dans l'entrepreneuriat.</p>
   </div>
   <div class="container-equipe">
   <div class="membre">
