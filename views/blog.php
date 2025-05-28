@@ -491,6 +491,20 @@ Les femmes doivent souvent faire davantage leurs preuves pour établir leur cré
   </p>
 </section>
 
+<aside class="temoignages-blog" style="background:#f5f5f5; border-left:4px solid #c06; padding:1em; margin:2em 0;">
+  <h4>Ce que disent les femmes entrepreneures interrogées&nbsp;:</h4>
+  <ul>
+    <li><strong>Accès au financement&nbsp;:</strong> «&nbsp;L’obtention d’un prêt bancaire reste plus difficile pour une femme, même avec un projet solide.&nbsp;»</li>
+    <li><strong>Stéréotypes et confiance&nbsp;:</strong> «&nbsp;On doit toujours prouver deux fois plus nos compétences, et le syndrome de l’imposteur est fréquent.&nbsp;»</li>
+    <li><strong>Réseautage&nbsp;:</strong> «&nbsp;Les réseaux professionnels sont souvent masculins, il faut oser s’imposer et créer ses propres opportunités.&nbsp;»</li>
+    <li><strong>Charge familiale&nbsp;:</strong> «&nbsp;Concilier vie pro et vie perso reste un vrai défi, surtout quand on entreprend.&nbsp;»</li>
+    <li><strong>Manque de visibilité des aides&nbsp;:</strong> «&nbsp;Il existe des dispositifs, mais on ne les connaît pas assez, il faudrait mieux les promouvoir.&nbsp;»</li>
+  </ul>
+  <p style="font-size:0.95em;color:#555;">
+    <em>Ces témoignages sont issus de notre enquête auprès de femmes entrepreneures. Merci à toutes pour leur partage d’expérience.</em>
+  </p>
+</aside>
+
 <?php
 $mainContent = ob_get_clean();
 $script = "<script src=\"/sources/js/smooth_scroll.js\"></script>";
